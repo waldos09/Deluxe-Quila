@@ -8,7 +8,7 @@ export default function App() {
         <div background="#F9D423">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Fecha de Plantacion</label>
+                <label htmlFor="exampleInputEmail1">Fecha de Plantacin</label>
                 <input type='date' {...register("firstName")} /><br></br>
                 <label htmlFor="exampleInputEmail1">Fecha de Recoleccion</label>
                 <input type='date' {...register("firstName")} /><br></br>
