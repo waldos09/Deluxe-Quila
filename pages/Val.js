@@ -10,7 +10,7 @@ export default function App() {
                 <div className="form-group">
                 <label htmlFor="exampleInputEmail1">Fecha de Plantacin</label>
                 <input type='date' {...register("firstName")} /><br></br>
-                <label htmlFor="exampleInputEmail1">Fecha de Recoleccion</label>
+                <label htmlFor="exampleInputEmail1">Fecha </label>
                 <input type='date' {...register("firstName")} /><br></br>
                 <input type='image' />
                 <input type="submit" />
